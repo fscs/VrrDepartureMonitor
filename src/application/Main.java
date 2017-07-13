@@ -19,12 +19,10 @@ public class Main extends Application {
         Rectangle2D primaryScreenBounds = Screen.getPrimary().getVisualBounds();
         if (primaryScreenBounds.getWidth() == 1280 && primaryScreenBounds.getHeight() == 1024)
             primaryStage.setFullScreen(true);
-        Parent root = FXMLLoader.load(getClass().getResource("/fxml/start_medium.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("/fxml/start_near_highdefinition.fxml"));
         primaryStage.setTitle("VRR_Monitor");
         primaryStage.setScene(new Scene(root));
-        primaryStage.setOnCloseRequest(event -> {
-            System.exit(0);
-        });
+        primaryStage.setOnCloseRequest(event -> System.exit(0));
         primaryStage.show();
     }
 

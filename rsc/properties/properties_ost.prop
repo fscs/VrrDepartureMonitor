@@ -1,0 +1,19 @@
+#Properties Datei
+
+firstStop_Name        =     Oststr.(HH)
+firstStop_URL         =     https://vrrf.finalrewind.org/D%C3%BCsseldorf/Oststra%C3%9Fe.html?frontend=html&no_lines=10&offset=4&platform=1%2C+3
+firstReplacement_URL  =
+
+secondStop_Name       =     Oststr.(HBF)
+secondStop_URL        =     https://vrrf.finalrewind.org/D%C3%BCsseldorf/Oststra%C3%9Fe.html?frontend=html&no_lines=10&offset=4&platform=2%2C+4
+secondReplacement_URL =
+
+thirdStop_Name        =     Oststr.(StrBahn)
+thirdStop_URL         =     https://vrrf.finalrewind.org/D%C3%BCsseldorf/Charlottenstr./Oststra%C3%9Fe.html?frontend=html&no_lines=10&offset=5
+thirdReplacement_URL  =
+
+fourthStop_Name       =     Hbf(S)
+fourthStop_URL        =     https://vrrf.finalrewind.org/D%C3%BCsseldorf%20Hbf.html?frontend=html&backend=db&no_lines=10&offset=10&line=S&platform=11%2C+12%2C+13%2C+14%2C+15%2C+16
+fourthReplacement_URL =
+
+

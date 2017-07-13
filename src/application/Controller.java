@@ -19,6 +19,8 @@ import java.util.Properties;
 
 
 public class Controller {
+    private final String PROPERTIESPATH = "/properties/properties_ost.prop";
+
     @FXML TextFlow textFlowStop1, textFlowStop2, textFlowStop3, textFlowStop4;
     @FXML TextFlow textFlowLine1, textFlowLine2, textFlowLine3, textFlowLine4;
     @FXML TextFlow textFlowTime1, textFlowTime2, textFlowTime3, textFlowTime4;
@@ -147,7 +149,7 @@ public class Controller {
     private Properties getProperties() throws IOException {
         Properties properties = new Properties();
         BufferedInputStream stream = new BufferedInputStream(this.getClass().getResourceAsStream
-                ("/properties/properties.prop"));
+                (PROPERTIESPATH));
         properties.load(new InputStreamReader(stream, Charset.forName("UTF-8")));
         stream.close();
         return properties;
